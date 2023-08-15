@@ -8190,8 +8190,11 @@ fieldset:disabled .btn {
     word-break: break-word !important
 }
 
-.text-primary {
+/* .text-primary {
     color: #0d6efd !important
+} */
+.text-primary {
+    color: #ff6633 !important
 }
 
 .text-secondary {
@@ -8246,8 +8249,11 @@ fieldset:disabled .btn {
     color: inherit !important
 }
 
-.bg-primary {
+/* .bg-primary {
     background-color: #0d6efd !important
+} */
+.bg-primary {
+    background-color: #ff6633 !important
 }
 
 .bg-secondary {
@@ -8270,8 +8276,11 @@ fieldset:disabled .btn {
     background-color: #dc3545 !important
 }
 
-.bg-light {
+/* .bg-light {
     background-color: #f8f9fa !important
+} */
+.bg-light {
+    background-color: #EEF9FF !important
 }
 
 .bg-dark {

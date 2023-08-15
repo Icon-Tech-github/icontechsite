@@ -190,7 +190,7 @@ p {
 .navbar a:focus i {
   font-size: 12px;
   line-height: 0;
-  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .navbar a:hover,
@@ -921,7 +921,190 @@ section {
   transform: translateZ(-20px);
   top: 12px;
 }
+/*--------------------------------------------------------------
+# blog
+--------------------------------------------------------------*/
+#blog {
+  padding: 160px 0px 120px 0px;
+}
+.section-title h3 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+}
+.section-title h3::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+.h5{
+  font-family: "Tajawal", sans-serif;
+}
+.blog a{
+  color: #37517e;
+  font-family: "Tajawal", sans-serif;
+ 
+}
+.text-uppercase{
+font-weight: bold;
+}
+.text-uppercase:hover{
+  color: #ff6633;
+}
+.fw-semi-bold:hover {
+  color: #ff6633;
+}
+.section-title h3::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: rgb(255 102 51);
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+.blog .row {
+  padding-top: 40px;
+}
 
+.blog .box {
+  padding: 60px 40px;
+  box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+  background: #fff;
+  height: 100%;
+  border-top: 4px solid #fff;
+  border-radius: 5px;
+}
+
+.blog h3 {
+  font-weight: 500;
+  /* margin-bottom: 15px; */
+  /* font-size: 20px; */
+  color: #37517e;
+}
+
+.blog h4 {
+
+  color: #37517e;
+  font-weight: 400;
+  font-family: "Tajawal", sans-serif;
+  /* margin-bottom: 25px; */
+}
+
+.blog h4 sup {
+  font-size: 28px;
+}
+
+.blog h4 span {
+  color: #ff6633;
+  font-size: 18px;
+  display: block;
+}
+
+.blog ul {
+  padding: 20px 0;
+  list-style: none;
+  color: #999;
+  text-align: right;
+  line-height: 30px;
+}
+
+.blog ul li {
+  padding: 10px 30px 10px 0px;
+  position: relative;
+  font-family: "Tajawal", sans-serif;
+}
+
+.blog ul i {
+  color: #ff6633;
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 6px;
+}
+
+.blog ul .na {
+  color: #ccc;
+}
+
+.blog ul .na i {
+  color: #ccc;
+}
+
+.blog ul .na span {
+  text-decoration: line-through;
+}
+
+.blog .buy-btn {
+  display: inline-block;
+  padding: 12px 35px;
+  border-radius: 50px;
+  color: #47b2e4;
+  transition: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Tajawal", sans-serif;
+  transition: 0.3s;
+  border: 1px solid #47b2e4;
+}
+
+.blog .buy-btn:hover {
+  background: #47b2e4;
+  color: #fff;
+}
+
+.blog .featured {
+  border-top-color: #ff6633;
+}
+
+.blog .featured .buy-btn {
+  background: #47b2e4;
+  color: #fff;
+}
+
+.blog .featured .buy-btn:hover {
+  background: #23a3df;
+}
+
+@media (max-width: 992px) {
+  .blog .box {
+    max-width: 60%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .blog .box {
+    max-width: 80%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .blog .box {
+    max-width: 100%;
+    margin: 0 auto 30px auto;
+  }
+}
+.team-item .team-img img,
+.blog-item .blog-img img {
+  transition: .5s;
+}
+
+.team-item:hover .team-img img,
+.blog-item:hover .blog-img img {
+  transform: scale(1.15);
+}
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
