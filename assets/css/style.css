@@ -481,7 +481,13 @@ p {
     width: 50%;
   }
 }
+@media (max-height: 415px) {
+  #hero {
+    height: 170vh;
+    text-align: center;
+  }
 
+}
 @media (max-width: 768px) {
   #hero h1 {
     font-size: 28px;
@@ -506,7 +512,8 @@ p {
 
   #hero .btn-get-started {
     font-size: 16px;
-    padding: 10px 24px 11px 24px;
+    /* padding: 10px 24px 11px 24px; */
+    padding: 9px 9px 9px 9px
   }
 }
 
