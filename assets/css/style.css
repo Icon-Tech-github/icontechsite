@@ -958,7 +958,7 @@ section {
 # blog
 --------------------------------------------------------------*/
 #blog {
-  padding: 160px 0px 120px 0px;
+  padding: 175px 0px 120px 0px;
 }
 
 .section-title h3 {
@@ -1879,7 +1879,7 @@ section {
 # Pricing
 --------------------------------------------------------------*/
 #markting {
-  padding: 160px 0px 120px 0px;
+  padding: 175px 0px 120px 0px;
 }
 
 .pricing .row {
@@ -2361,7 +2361,7 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 15px 0;
+  padding: 20px 0;
   background: #f3f5fa;
   min-height: 40px;
   margin-top: 150px;
