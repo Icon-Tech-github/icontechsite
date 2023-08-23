@@ -412,6 +412,8 @@ li {
   margin: 10px 0 0 0;
   color: #fff;
   background: #47b2e4;
+  width: 30%;
+  text-align: center;
 }
 
 #hero .btn-get-started:hover {
@@ -443,9 +445,16 @@ li {
   }
 }
 
-@media (max-height: 415px) {
+@media (max-height: 540px) {
   #hero {
     height: 170vh;
+    text-align: center;
+  }
+
+}
+@media (max-height: 280px) {
+  #hero {
+    height: 250vh;
     text-align: center;
   }
 
@@ -475,7 +484,8 @@ li {
 
   #hero .btn-get-started {
     font-size: 16px;
-    padding: 9px 9px 9px 9px
+    /* padding: 9px 9px 9px 9px */
+    width: 60%;
   }
 }
 
@@ -1692,6 +1702,15 @@ section {
   -webkit-transform: translate(0px, -6px) scale(1.1);
   transform: translate(0px, -6px) scale(1.1);
 }
+@media (max-width: 768px) {
+.cont .n:hover {
+     background-color: rgb(255 102 51);
+     color: white;
+    border: 1px solid #209dd8;
+    transform: none;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
