@@ -563,7 +563,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Cliens
+# partners
 --------------------------------------------------------------*/
 @media (max-width: 767px) {
   .carousel-inner .carousel-item>div {
@@ -600,7 +600,7 @@ section {
   transform: translateX(0);
 }
 
-.cliens {
+.partners {
   padding: 12px 0;
   text-align: center;
 }
